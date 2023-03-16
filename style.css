@@ -1,0 +1,182 @@
+.our
+{
+    background-image: linear-gradient(to right, red 20%, green 40%, yellow);
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(13, 13, 91);
+}
+
+.list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 380px;
+    border: 3px solid red;
+    border-radius: 15px;
+    width: 800px;
+    height: 70px;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    background-color:rgb(122, 193, 211);
+}
+
+.lorem
+{
+    
+    display: flex;
+    background-color: aquamarine;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin: 1px;
+    width: 100%;
+}
+
+.random
+{
+    background-color: aqua;
+    border: 4px solid green;
+    width: 500px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+}
+.top
+{
+    margin-left: 30px;
+}
+
+.botm
+{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.perform
+{
+    border: 0px none;
+    height: 30px;
+    background-image: linear-gradient(to left, red,yellow,red);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(37, 37, 141);
+}
+
+.topper
+{
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    border: 3px solid green;
+    width: 100%;
+    height: 250px;
+    margin: 10px;
+    background-image: radial-gradient(rgb(83, 83, 216) 55%, green);
+}
+
+.iit
+{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: yellow;
+    width: 180px;
+    height: 120px;
+    margin-top: 0px;
+    padding: 0;
+    text-align: center;
+    color: rgb(188, 37, 37);
+    text-decoration: underline;
+}
+
+.best
+{
+    border: 0px none;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(174, 50, 50);
+    color: aliceblue;
+    margin: 10px;
+}
+
+.grid
+{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 0.25fr;
+    grid-template-rows: 80px;
+    gap:5px;
+    
+}
+
+.grid-item
+{
+    
+    border: 5px solid;
+    
+}
+
+.grid0
+{
+    color: aliceblue;
+    background-color: rgb(59, 194, 59);
+    text-align: center;
+    line-height: 3px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.grid1
+{
+    color: aliceblue;
+    background-color: rgb(137, 137, 246);
+    font-size: 23px;
+}
+
+.grid2
+{   
+   
+    line-height: 2px;
+    color: aliceblue;
+    background-color:rgb(118, 118, 243);
+    font-size: 18px;
+    margin-top: 1px;
+    font-weight: bolder;
+}
+
+.grid3
+{
+   
+    color: aliceblue;
+    background-color:black;
+    text-decoration: underline;
+    grid-area: 1/4/3/5;
+    text-align:left;
+    
+}
+
+.grid4
+{
+    border: 0px none;
+    color: aliceblue;
+    background-color:orange;
+    grid-area: 2/1/3/4;
+    height: 130px;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.all
+{
+    border: 1px none;
+    background-color: skyblue;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+}
